@@ -484,6 +484,19 @@ a {
       justify-content: space-between;
       gap: 40px;
       list-style: none;
+      background: #FFDEFE;
+      border-radius: 0px 0px 10px 10px;
+      padding: 20px 5px;
+   }
+   .navbar .menu2{
+      display: none;
+      justify-content: space-between;
+      gap: 40px;
+      list-style: none;
+      background: #FFDEFE;
+      border-radius: 0px 0px 10px 10px;
+      padding: 0px 5px 10px;
+      top: 40px;
    }
    .navbar {
       display: flex;
@@ -504,13 +517,16 @@ a {
       position: absolute;
       right: 1px;
       bottom: -100px;
+      font-size: 0.8rem;
+      top: 40px;
    }
    .menu2 {
       display: flex;
-      position: absolute;
+      position: absolute; 
       right: 1px;
       bottom: -70px;
-      line-height: 25px;
+      font-size: 0.8rem;
+      line-height: 22px;
    }
    .article-section {
       display: flex;
