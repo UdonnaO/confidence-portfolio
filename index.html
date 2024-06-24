@@ -1,137 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title> Confidence Dickson </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title> 
 </head>
-
 <body>
-
-    <!------------------ Navbar ---------------->
-    <nav id="navbar" class="navbar">
-        <div class="logo">
-            <h1> Confidence <span>Dickson</span></h1>
-        </div>
-        <button class="burger"><i class="fa-solid fa-bars"></i></button>
-        <ul class="menu">
-            <li><a href="#container">Home</a></li>
-            <li><a href="#about-section">About</a></li>
-            <li><a href="article.html">Articles</a></li>
-            <li><a href="#contact-section">Contact</a></li>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow fixed-top z-3">
+    <div class="container" id="home">
+      <a class="navbar-brand title" href="#">Confidence Dickson</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto me-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
-    </nav>
-
-    <!--------------------- Hero Section ----------------->
-    
-    <div id="container" class="container">
-        <div class="left">
-            <h2>Hey, I'm</h2>
-            <h1>Confidence</h1>
-            <h2><span>Dickson</span></h2>
-            <h4>a passionate Business Development Specialist,<br> Transcriber, Content Writer, and Customer Service<br>
-                enthusiast. My main goal is ensuring your utmost<br> satisfaction with my services.</h4>
-            <button><a href="#contact-section">Contact Me</a></button>
-        </div>
-        <div class="right">
-            <img src="picture.jpeg" alt="">
-        </div>
-
+      </div>
     </div>
+  </nav>
 
-    <!--------------------- About Section ----------------->
+  <!-- LANDING PAGE -->
 
-    <div id="about-section" class="about-section">
-        <div class="about">
-            <h1> About Me </h1>
-        </div>
-        <div class="about-content">
-            <h3>Hey there, I'm Confidence Dickson—a passionate Business Development Specialist, Transcriber, Content
-                Writer, and Customer Service enthusiast. My main goal? Ensuring your utmost satisfaction with my
-                services. But let me tell you a bit more about myself.
-
-                I find true joy in seeing people satisfied with the work I do. There's something incredibly rewarding
-                about knowing that I've made a positive impact. What fuels my passion even further? Business news,
-                public relations, and people management. These areas ignite my curiosity and inspire me to continuously
-                grow and excel in my field.
-
-                <span class="read-more">With ample experience in business development and customer service, I've had the privilege of managing a
-                team of over 150 talented individuals while working for a major live-streaming company. It was an
-                incredible opportunity that sharpened my skills in people management and propelled me to achieve
-                remarkable results in driving business growth.
-
-                Now, let's talk about my skills. I'm a master of time management, ensuring that tasks are completed
-                efficiently and deadlines are met. People management is another one of my strengths—I thrive in leading
-                and motivating teams to reach their full potential. Additionally, I possess solid sales skills, allowing
-                me to identify and seize opportunities that drive success.
-
-                When it comes to my approach and philosophy, it's all about integrity, professionalism, and a genuine
-                commitment to meeting your needs. I believe in building strong and transparent relationships based on
-                trust, effective communication, and mutual respect. Together, we can foster long-term partnerships that
-                yield mutual growth and success.
-
-                To give you a taste of my capabilities, I invite you to explore my portfolio [insert link to your
-                portfolio]. There, you'll find a collection of projects that highlight my achievements in business
-                development, engaging content writing, and exceptional customer service. Each sample reflects the
-                passion and dedication I bring to my work.
-
-                Education-wise, I hold a Bachelor's degree in Mass Communication—a solid foundation that supports my
-                expertise in various areas. Furthermore, I'm currently pursuing a Master's degree in Public Relations
-                and Digital Communications. This continued education allows me to stay at the forefront of industry
-                trends and further refine my skills.
-
-                Outside of work, I love staying up-to-date with the latest business news and trends. Public relations is
-                an area I'm particularly drawn to, as it allows me to engage with people from diverse backgrounds and
-                build meaningful connections.
-
-                Ready to get in touch? Feel free to reach out to me at dicksonconfidence00@gmail.com or +2348149924355.
-                You can also connect with me on https://www.linkedin.com/in/dickson-confidence-43a63b189 to stay updated
-                on my latest projects and insights.
-
-                Let's collaborate and make a difference together!</span></h3>
-                <button class="btn-read-more"> Read more </button>
-        </div>
-    </div>
-
-    <!--------------------- Article Section ----------------->
-
-   
-
-    <!--------------------- Contact Section ----------------->
-
-    <div id="contact-section" class="contact-section">
-        <div class="contact">
-            <h1> Contact </h1>
-        </div>
-        <form action="https://formsubmit.co/dicksonconfidence00@gmail.com" method="post">
-            <input type="text" id="name" name="name" placeholder="Your fullname.." required>
-
-            <input type="email" class="field" placeholder="email" required>
-
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" required></textarea>
-
-            <input id="btn" type="submit" value="Submit">
-
-            <div class="icons">
-                <a href="http://linkedin.com/in/confidence-dickson-43a63b189" target="_blank"><i class="fa-brands fa-linkedin"></i> linkedin </a>
-                <i class="fa-solid fa-envelope"><h5>dicksonconfidence00@gmail.com</h5></i>
+  <div class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-6 me-3">
+            <div class="align-middle">
+              <h5>Hello</h5>
+              <h1>
+                I'm <span class="fw-bold">Confidence <br></span> Dickson
+              </h1>
+              <hr>
+              <p class="mt-4 text">
+                Welcome to my portfolio! I am Confidence Dickson, a dedicated
+                professional with an MA in Public relations and digital
+                communications and a BSc in Mass Communication. I bring a robust
+                background in business development, content creation, customer
+                service and media production.
+              </p>
             </div>
+            <div class="mb-5 mt-4">
+              <a href="#" class="hire_btn">Hire</a>
+              <a href="#" class="portfolio_btn">Portfolio</a>
+            </div>
+          </div>
 
-        </form>
-        
+          <div class="col-md-5 mb-5">
+            <div class="">
+              <img src="image/profile2.png" width="100%" class="align-middle rounded-circle">
+            </div>
+          </div>
+      </div>
     </div>
-    <div class="footer">
-        <h5>© Made by Udonna Okebata 2023</h5>
+  </div>
+
+
+  <!-- ABOUT PAGE -->
+  <div class="py-5" id="about">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-12">
+            <h1 class="fw-bold">About</h1>
+            <hr>
+            <p class="mt-4 text">
+              Hey there, I'm Confidence Dickson—a passionate Business Development
+              Specialist, Transcriber, Content Writer, and Customer Service
+              enthusiast. My main goal? Ensuring your utmost satisfaction with my
+              services. But let me tell you a bit more about myself. I find true joy
+              in seeing people satisfied with the work I do. There's something
+              incredibly rewarding about knowing that I've made a positive impact.
+              What fuels my passion even further? Business news, public relations,
+              and people management. These areas ignite my curiosity and inspire me
+              to continuously grow and excel in my field.
+            </p>
+            <a href="#" class="read_btn">Read more</a>
+        </div>
+      </div>
     </div>
-    
-    
-    <script src="script.js"></script>
+  </div>
+
+
+  <!-- PORTFOLIO -->
+  <div class="py-5" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <h1 class="fw-bold">Portfolio</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-12 mb-5">
+          <div class="card">
+            <h5 class="card-header">
+              HOW TO ESTABLISH A STRONG SOCIAL MEDIA PRESENCE FOR AB SMART
+            </h5>
+            <div class="card-body">
+              <p class="card-text mb-4">
+                It is important to note that AB smart is a new organization and
+                does not have an ongoing social media activity. We have a set out
+                goal which is to obtain registration from 1,000 Nigerian based
+                tech enthusiasts within one month.
+              </p>
+              <a
+                href="https://docs.google.com/document/d/1S9DDC3DNxmn0INQ3hX5wQftRjbcQsIfmflUK-ebgIsE/edit?usp=sharing"
+                target="”_blank”" class="read_btn">
+                Read more
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-5">
+          <div class="card">
+            <h5 class="card-header">
+              WAYS TO REACH MORE AGENCIES
+            </h5>
+            <div class="card-body">
+              <p class="card-text mb-4">
+                1. I suggest we should target more of agencies through Instagram
+                advertisement. This is because our targeted audience or market are
+                more of social media users and agencies use Instagram as their
+                official social media outlet.
+              </p>
+              <a
+                href="https://docs.google.com/document/d/1LVzMy3AYwOhalh3al-DPPcs6l7lDBh33F0oaS-EanJs/edit?usp=sharing"
+                target="”_blank”" class="read_btn">
+                Read more
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <h5 class="card-header">Some of my Images and Video ads</h5>
+            <div class="card-body">
+              <p class="card-text">
+                I did a couple of ads for my previous company, below is a link to
+                the images and video.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1--g2ebo4xzhL5lwKc-TCE9-3HsafL-7Q"
+                target="”_blank”" class="read_btn">
+                View more
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CONTACT -->
+  <div class="py-5 mb-5" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="fw-bold text-center">Contact</h1>
+          <div class="card card-body p-4">
+            <form action="https://formsubmit.co/dicksonconfidence00@gmail.com" method="post">
+              <div class="mb-3">
+                <input type="text" class="form-control" name="name" placeholder="Your name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" name="email" placeholder="Email address" required>
+              </div>
+              <div class="mb-3">
+                <textarea name="subject" rows="6" class="form-control" placeholder="Message.." required></textarea>
+              </div>
+              
+              <button type="submit" class="read_btn">Submit</button>
+
+
+              <div class="mt-4">
+                <a
+                  href="http://linkedin.com/in/confidence-dickson-43a63b189"
+                  target="_blank" class="linkedin">
+                  <i class="fa-brands fa-linkedin"></i> linkedin
+                </a>
+                <h5>dicksonconfidence00@gmail.com</h5>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="text-center">&copy; Made by Udonna Okebata 2023</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
